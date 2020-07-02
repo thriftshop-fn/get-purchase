@@ -1,8 +1,11 @@
 {
-  "name": "template",
+  "name": "get-purchase-fn",
   "version": "1.0.0",
-  "description": "## Usage",
+  "description": "Get Product Purchase Info",
   "author": "GoldCoders",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.0.11"
+  }
 }
