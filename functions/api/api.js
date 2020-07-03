@@ -50,6 +50,10 @@ exports.handler = async (event) => {
       await doc.addSheet({
         headerValues: [
           "reference_no",
+          "sent",
+          "courier",
+          "tracking_no",
+          "remarks",
           "pm_link",
           "payment_id",
           "paid",
@@ -61,9 +65,6 @@ exports.handler = async (event) => {
           "payout_date",
           "referral_code",
           "referral_fee",
-          "sent",
-          "courier",
-          "tracking_no",
           "received",
           "intangible",
           "order_details",
@@ -75,7 +76,6 @@ exports.handler = async (event) => {
           "payer_email",
           "payer_phone",
           "billing_address",
-          "remarks",
         ],
         sheetId: 1,
         gridProperties: {
@@ -95,6 +95,10 @@ exports.handler = async (event) => {
 
       await purchase_sheet.setHeaderRow([
         "reference_no",
+        "sent",
+        "courier",
+        "tracking_no",
+        "remarks",
         "pm_link",
         "payment_id",
         "paid",
@@ -106,9 +110,6 @@ exports.handler = async (event) => {
         "payout_date",
         "referral_code",
         "referral_fee",
-        "sent",
-        "courier",
-        "tracking_no",
         "received",
         "intangible",
         "order_details",
@@ -120,7 +121,6 @@ exports.handler = async (event) => {
         "payer_email",
         "payer_phone",
         "billing_address",
-        "remarks",
       ]);
     }
 
