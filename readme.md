@@ -111,7 +111,7 @@ https://docs.google.com/spreadsheets/d/COPY-THIS-URL-SEGMENT/edit#gid=0
     "courier":"",
     "tracking_no":"",
     "received":"",
-    "intangible":"no",
+    "deliverable": true,
     "order_details":"This is an Example Paymongo Create Link On Checkout",
     "receiver_name":"Midas Code Breaker",
     "receiver_phone":"roo5xUi",

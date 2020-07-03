@@ -50,6 +50,7 @@ exports.handler = async (event) => {
       await doc.addSheet({
         headerValues: [
           "reference_no",
+          "deliverable",
           "sent",
           "courier",
           "tracking_no",
@@ -66,7 +67,6 @@ exports.handler = async (event) => {
           "referral_code",
           "referral_fee",
           "received",
-          "intangible",
           "order_details",
           "receiver_name",
           "receiver_phone",
@@ -95,6 +95,7 @@ exports.handler = async (event) => {
 
       await purchase_sheet.setHeaderRow([
         "reference_no",
+        "deliverable",
         "sent",
         "courier",
         "tracking_no",
@@ -111,7 +112,6 @@ exports.handler = async (event) => {
         "referral_code",
         "referral_fee",
         "received",
-        "intangible",
         "order_details",
         "receiver_name",
         "receiver_phone",
